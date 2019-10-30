@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'myriadpro';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/MyriadPro-Regular.woff2);
+}
+body {
+    background: #b07cf7;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+main {
+    max-width: 100%;
+}
+.logo h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 100px 0 0 0;
+}
+header .text-logo {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 26px;
+    padding: 48px 30%;
+}
+.wrapper .column {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.wrapper .cols {
+    margin: 0 15px;
+    background-size: cover;
+    position: relative;
+}
+button {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    margin: 36px auto;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 56px;
+    color: #ffffff;
+    background-color: #F72B3B;
+}
+button:hover {
+    background-color: rgb(199, 33, 46);
+    transition-duration: 0.5s;
+}
+button:active {
+    background-color: rgb(255, 0, 21); 
+}
+.cols .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    border: 1px solid #555C64;
+    border-radius: 4px;
+    width: 60px; 
+    height: 60px;
+    color: #ffffff;
+    background-color: #555C64;
+    opacity: 0.7;
+    line-height: 26px;
+}
+.cols .date span {
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+ .column .cols h2 {
+     color: #ffffff;
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     position: absolute;
+     bottom: 78px;
+     left: 20px;
+     padding: 0 42px 0 0;
+}
+.column .cols p {
+    color: #f4f4f4;
+    font-family: 'myriadpro';
+    font-size: 13px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    padding: 0 42px 0 0;
+}
